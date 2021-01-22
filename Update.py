@@ -1,4 +1,5 @@
 {% block card_body %}
+@login_required
     <p>Update new post using following form:</p>
     <form action="" method="PUT" novalidate>
         {{ form.hidden_tag() }}
